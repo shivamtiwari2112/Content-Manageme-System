@@ -23,7 +23,7 @@ export default (props) => {
           </div>
           <div className="col-sm-4">
               <p>
-                  <a href="https://github.com/mahmudahsan/python-bangla-react" target="_blank" rel="noreferrer noopener"><span role="img" aria-label="github">🎯</span>Open Source Project</a> <br />
+                  <a href="https://github.com/shivamtiwari2112/" target="_blank" rel="noreferrer noopener"><span role="img" aria-label="github">🎯</span>Open Source Project</a> <br />
               </p>
           </div>
       </div>

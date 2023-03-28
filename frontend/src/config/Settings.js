@@ -1,13 +1,13 @@
 ///
 
 const Config = {
-  logoAlt: 'পাইথন বাংলা',
+  logoAlt: 'Content Management Tool',
   imageBaseUrl: "/",
   menu: {
     // [menu, path, firebase-collection-name]
-    menu1: ["বিগিনার", "/", 'beginner'],
-    menu2: ["অ‍্যাডভান্সড", "/advanced", 'advanced'],
-    menu3: ["জ‍্যাঙ্গো ওয়েব", "/django", 'django'],
+    menu1: ["Menu", "/", 'beginner'],
+    menu2: ["Advance", "/advanced", 'advanced'],
+    menu3: ["Django", "/django", 'django'],
     menu5: ["Python English", "/python-tutorials", 'english'],
     menu6: ["Blog", "ext", "http://thinkdiff.net"],
     menu7: ["Mobile Apps", "ext", "http://ithinkdiff.net"],
@@ -20,7 +20,7 @@ const Config = {
     youtube:  "",
   },
   author: {
-    name: "Mahmud Ahsan"
+    name: "Shivam Kumar"
   }
 }
 
@@ -28,23 +28,23 @@ export default Config;
 
 const Cards = [
   {
-    title_english: "Python Beginner",
-    title_other: "পাইথন বিগিনার",
-    short_desc: "পাইথন কি, কিভাবে পাইথন সেটআপ করতে হয়, কিভাবে কোড লিখে রান করতে হয় এরকম অনেক দরকারি এবং বেসিক পাইথন প্রোগ্রামিং বিষয় নিয়ে ১৪টা ভিডিও টিউটোরিয়ালের মাধ‍্যমে আলোচনা করা হয়েছে",
+    title_english: "JavaScript Tutorial",
+    title_other: "JavaScript Tutorial",
+    short_desc: "This tutorial is written to give you the basic idea of javascript language and its use cases",
     image: "py-beg.png",
     title_other_css_class: 'color1'
   },
   {
-    title_english: "Python Advanced",
-    title_other: "পাইথন এডভান্সড",
-    short_desc: "পাইথন দিয়ে এডভান্সড কাজ করতে চাইলে যেমন ওয়েবপেজ স্ক্র‍্যাপিং, এসকিউএল ডাটাবেজ, ওয়েবপেজ টেস্টি, রেগুলার এক্সপ্রেশন, ওয়েব অটোমেশন এসব নিয়ে আলোচনা",
+    title_english: "Linux",
+    title_other: "Linux CLI command",
+    short_desc: "This article contains list of important tools you can use daily in your life as linux system administrator",
     image: "py-adv.png",
     title_other_css_class: 'color2'
   },
   {
-    title_english: "Python Django",
-    title_other: "জ‍্যাঙ্গো ওয়েব ফ্রেমওয়ার্ক",
-    short_desc: "এই সিরিজ টিউটোরিয়ালে পাইথনের জ‍্যাঙ্গো ওয়েব ফ্রেমওয়ার্ক দিয়ে ওয়েব অ‍্যাপ্লিকেশন বানানোর খুটিনাটি বিষয় থেকে শুরু করে ডাটাবেজ, সার্ভারে আপলোড করা এসব নিয়ে আলোচনা করা হয়েছে",
+    title_english: "DevOps",
+    title_other: "Intro to DevOps",
+    short_desc: "DevOps has become a trending profession, many experienced developers and fresher are switching their career field into this area.",
     image: "py-django.png",
     title_other_css_class: 'color3'
   },
